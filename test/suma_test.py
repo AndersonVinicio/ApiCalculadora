@@ -1,7 +1,7 @@
 import unittest
 import sys
-sys.path.insert(0, '../PYTHON')
-from operaciones.suma.suma import suma
+sys.path.insert(0, '..')
+from PYTHON.operaciones.suma.suma import suma
 
 class TestSumar(unittest.TestCase):
     def test_sumar(self):
