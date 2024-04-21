@@ -4,7 +4,7 @@ sys.path.insert(0, '..')
 from PYTHON.operaciones.resta.resta import resta
 
 class TestResta(unittest.TestCase):
-    def test_sumar(self):
+    def test_resta(self):
         operacion = resta()
         self.assertEqual(operacion.resta(3, 2), 1)
         self.assertEqual(operacion.resta(2,3), -1)

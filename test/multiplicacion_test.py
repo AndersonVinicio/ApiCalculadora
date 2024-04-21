@@ -4,7 +4,7 @@ sys.path.insert(0, '..')
 from PYTHON.operaciones.multiplicacion.multiplicacion import multiplicacion
 
 class TestMultiplicacion(unittest.TestCase):
-    def test_sumar(self):
+    def test_multiplicacion(self):
         operacion = multiplicacion()
         self.assertEqual(operacion.multiplicacion(3, 2), 6)
         self.assertEqual(operacion.multiplicacion(2,3), 6)
